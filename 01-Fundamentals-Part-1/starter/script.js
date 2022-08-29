@@ -10,7 +10,7 @@ console.log(firstName);
 console.log(firstName);
 console.log(firstName);
 
-//im here
+//im here //imhere second
 let jonas_matilda = "JM";
 let $function = 27;
 let person = "james"
