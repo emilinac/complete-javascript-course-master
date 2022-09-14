@@ -192,3 +192,26 @@ consule.log(myFirstJob);
 // } else {
 //     console.log('Height is UNDEFINED');
 // }
+
+
+let age = '18';
+
+if (age === 18)
+    console.log('You just became an adult!(string)');
+
+if (age == 18)
+    console.log('You just became an adult!(loose)');
+
+
+const favorite = Number(prompt(" What's your favorite number?"));
+console.log(favorite);
+
+if (favorite === 8) {
+    console.log('Cool! 8 is the best number!');
+} else if (favorite === 4) {
+    console.log('4 is also a cool number');
+} else {
+    console.log('Number is not 8 or 4');
+}
+
+if (favorite !== 8) console.log('Why not 8?'); 
