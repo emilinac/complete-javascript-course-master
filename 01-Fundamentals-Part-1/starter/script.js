@@ -62,10 +62,10 @@ consule.log(myFirstJob);
 // console.log(lastName);
 
 // Math Operators
-const now = 2037
-const ageJonas = now - 1991;
-const ageSarah = now - 2018;
-console.log(ageJonas, ageSarah);
+// const now = 2037
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2018;
+// console.log(ageJonas, ageSarah);
 
 // console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
 // // 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
@@ -85,10 +85,10 @@ console.log(ageJonas, ageSarah);
 
 
 // // Comperison operators
-console.log(ageJonas > ageSarah); // >, <, >=, <=
-console.log(ageJonas < ageSarah);
-console.log(ageJonas >= ageSarah);
-console.log(ageJonas <= ageSarah);
+// console.log(ageJonas > ageSarah); // >, <, >=, <=
+// console.log(ageJonas < ageSarah);
+// console.log(ageJonas >= ageSarah);
+// console.log(ageJonas <= ageSarah);
 
 // console.log(ageSarah >= 18);
 
@@ -112,4 +112,83 @@ console.log(ageJonas <= ageSarah);
 // const averageAge = (ageJonas + ageSarah) / 2
 // console.log(ageJonas, ageSarah, averageAge);
 
+// const firstName = 'Jonas';
+// const job = 'teacher';
+// const birthYear = '1991';
+// const year = 2037;
 
+// const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+// console.log(jonas);
+
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+// console.log(jonasNew);
+
+// console.log('String with \n\
+// multiple \n\
+// lines')
+
+// console.log(`Strign with 
+// multiple
+// lines`)
+
+// const age = 19;
+
+// if (age >= 18) {
+//     console.log('Sarah can start driving licence 😁');
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Sarah is too young. Wait another ${yearsLeft} years 🙁. `)
+// }
+
+// const birthYear = 2003;
+// let century;
+
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+// console.log(century);
+
+// type conversion
+// let inputYear = '2003';
+// // console.log(Number(inputYear));
+// console.log(Number(inputYear) + 18);
+
+// console.log(Number('Jonas'));
+// console.log(typeof NaN)
+
+// console.log(String(18));
+
+// // type coercion
+
+// console.log('I am ' + 23 + ' years old!');
+// console.log('23' + '10' + 3);
+
+// let n = '1' + 1;
+// n = n - 1;
+// console.log(n);
+
+// 5 falsy values: 0, '', undefined, null, NaN.
+
+// console.log(Boolean(0));
+// console.log(Boolean(''));
+// console.log(Boolean(undefined));
+// console.log(Boolean(null));
+// console.log(Boolean(NaN));
+// console.log(Boolean('Emily'));
+// console.log(Boolean({}));
+
+// let money = 0;
+// if (money) {
+//     console.log("Don't spend it all!!!")
+// } else {
+//     console.log('You should get a job!')
+// }
+
+// let height;
+// if (height) {
+//     console.log('YAY! Height is defined');
+// } else {
+//     console.log('Height is UNDEFINED');
+// }
