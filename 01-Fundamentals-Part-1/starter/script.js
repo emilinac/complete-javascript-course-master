@@ -217,12 +217,12 @@ consule.log(myFirstJob);
 // if (favorite !== 8) console.log('Why not 8?'); 
 
 
-let hasDriversLicense = true; //A
-let hasGoodVision = true //B
+// let hasDriversLicense = true; //A
+// let hasGoodVision = true //B
 
-console.log(hasDriversLicense && hasGoodVision);
-console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
 
 // if (shouldDrive = hasDriversLicense && hasGoodVision) {
 //     console.log('Sarah is able to drive!');
@@ -230,11 +230,11 @@ console.log(!hasDriversLicense);
 //     console.log('Someone else should drive...!');
 // }
 
-let isTired = false; // c
-console.log(hasDriversLicense || hasGoodVision || isTired);
+// let isTired = false; // c
+// console.log(hasDriversLicense || hasGoodVision || isTired);
 
-if (shouldDrive = hasDriversLicense && hasGoodVision && !isTired) {
-    console.log('Sarah is able to drive!');
-} else {
-    console.log('Someone else should drive...!');
-}
+// if (shouldDrive = hasDriversLicense && hasGoodVision && !isTired) {
+//     console.log('Sarah is able to drive!');
+// } else {
+//     console.log('Someone else should drive...!');
+// }
