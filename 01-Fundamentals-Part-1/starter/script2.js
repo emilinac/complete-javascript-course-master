@@ -40,6 +40,17 @@
 //     language;
 // console.log(description);
 
+// Assignment 5
+
+let country = 'United States';
+let continent = 'North America';
+let population = '329.5';
+let language = 'English';
+
+console.log(`${country} is in ${continent} and it's ${population} millon poeple speak ${language}.`);
+
+// Assignment 6
+
 
 
 // Coding Challenge #1 and #2
@@ -101,50 +112,52 @@
 
 // Coding Challenge #3
 
-let dolphins = (96 + 108 + 89) / 3
-let koalas = (88 + 91 + 110) / 3
+// let dolphins = (96 + 108 + 89) / 3
+// let koalas = (88 + 91 + 110) / 3
 
-console.log(dolphins, koalas);
+// console.log(dolphins, koalas);
 
-if (dolphins > koalas) {
-    console.log('Dolphins are the winners against the Koalas!');
-}
-else if (dolphins < koalas) {
-    console.log('Koalas are the winners against the Dolphins!');
-} else {
-    console.log('Its a tie between both!');
-}
+// if (dolphins > koalas) {
+//     console.log('Dolphins are the winners against the Koalas!');
+// }
+// else if (dolphins < koalas) {
+//     console.log('Koalas are the winners against the Dolphins!');
+// } else {
+//     console.log('Its a tie between both!');
+// }
 
-// Data 2
+// // Data 2
 
-let dolphins1 = (97 + 112 + 101) / 3
-let koalas1 = (109 + 95 + 123) / 3
-console.log(dolphins1, koalas1);
+// let dolphins1 = (97 + 112 + 101) / 3
+// let koalas1 = (109 + 95 + 123) / 3
+// console.log(dolphins1, koalas1);
 
-if (dolphins1 >= 100 && dolphins1 > koalas1) {
-    console.log('Dolphins are the winners against the Koalas!');
-}
-else if (koalas1 >= 100 && dolphins1 < koalas1) {
-    console.log('Koalas are the winners against the Dolphins!');
-}
-else if (dolphins1 === koalas1) {
-    console.log('It was a tie between the teams!');
-}
+// if (dolphins1 >= 100 && dolphins1 > koalas1) {
+//     console.log('Dolphins are the winners against the Koalas!');
+// }
+// else if (koalas1 >= 100 && dolphins1 < koalas1) {
+//     console.log('Koalas are the winners against the Dolphins!');
+// }
+// else if (dolphins1 === koalas1) {
+//     console.log('It was a tie between the teams!');
+// }
 
-// Data 3
+// // Data 3
 
-let dolphins2 = (97 + 112 + 101) / 3
-let koalas2 = (109 + 95 + 106) / 3
-console.log(dolphins2, koalas2);
+// let dolphins2 = (97 + 112 + 101) / 3
+// let koalas2 = (109 + 95 + 106) / 3
+// console.log(dolphins2, koalas2);
 
-if (dolphins2 >= 100 && dolphins2 > koalas2) {
-    console.log('Dolphins are the winners against the Koalas!');
-}
-else if (koalas2 >= 100 && dolphins2 < koalas2) {
-    console.log('Koalas are the winners against the Dolphins!');
-}
-else if (dolphins2 === koalas2) {
-    console.log('It was a tie between the teams!');
-} else {
-    console.log('No one wins');
-}
+// if (dolphins2 >= 100 && dolphins2 > koalas2) {
+//     console.log('Dolphins are the winners against the Koalas!');
+// }
+// else if (koalas2 >= 100 && dolphins2 < koalas2) {
+//     console.log('Koalas are the winners against the Dolphins!');
+// }
+// else if (dolphins2 === koalas2) {
+//     console.log('It was a tie between the teams!');
+// } else {
+//     console.log('No one wins');
+// }
+
+// Assignment 5
