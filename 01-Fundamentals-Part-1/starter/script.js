@@ -194,24 +194,47 @@ consule.log(myFirstJob);
 // }
 
 
-let age = '18';
+// let age = '18';
 
-if (age === 18)
-    console.log('You just became an adult!(string)');
+// if (age === 18)
+//     console.log('You just became an adult!(string)');
 
-if (age == 18)
-    console.log('You just became an adult!(loose)');
+// if (age == 18)
+//     console.log('You just became an adult!(loose)');
 
 
-const favorite = Number(prompt(" What's your favorite number?"));
-console.log(favorite);
+// const favorite = Number(prompt(" What's your favorite number?"));
+// console.log(favorite);
 
-if (favorite === 8) {
-    console.log('Cool! 8 is the best number!');
-} else if (favorite === 4) {
-    console.log('4 is also a cool number');
+// if (favorite === 8) {
+//     console.log('Cool! 8 is the best number!');
+// } else if (favorite === 4) {
+//     console.log('4 is also a cool number');
+// } else {
+//     console.log('Number is not 8 or 4');
+// }
+
+// if (favorite !== 8) console.log('Why not 8?'); 
+
+
+let hasDriversLicense = true; //A
+let hasGoodVision = true //B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+// if (shouldDrive = hasDriversLicense && hasGoodVision) {
+//     console.log('Sarah is able to drive!');
+// } else {
+//     console.log('Someone else should drive...!');
+// }
+
+let isTired = false; // c
+console.log(hasDriversLicense || hasGoodVision || isTired);
+
+if (shouldDrive = hasDriversLicense && hasGoodVision && !isTired) {
+    console.log('Sarah is able to drive!');
 } else {
-    console.log('Number is not 8 or 4');
+    console.log('Someone else should drive...!');
 }
-
-if (favorite !== 8) console.log('Why not 8?'); 
