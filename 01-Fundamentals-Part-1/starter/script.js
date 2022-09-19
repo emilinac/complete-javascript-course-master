@@ -238,3 +238,56 @@ consule.log(myFirstJob);
 // } else {
 //     console.log('Someone else should drive...!');
 // }
+
+
+let day = 'monday';
+switch (day) {
+    case 'monday':
+        console.log('Plan course structure');
+        console.log('Go to coding meeding');
+        break;
+    case 'tuesday':
+        console.log('Prepare for theory meeting');
+        break
+    case 'wednesday':
+    case 'thursday':
+        console.log('Write code examples');
+        break
+    case 'friday':
+        console.log('Record videos');
+        break
+    case 'saturday':
+    case 'sunday':
+        console.log('Enjoy the weekend ;)');
+        break
+
+    default:
+        console.log('Not a valid day!');
+        break;
+}
+
+if (day === monday) {
+    console.log('Plan course structure');
+    console.log('Go to coding meeding');
+}
+else if (day === tuesday) {
+    console.log('Prepare for theory meeting');
+}
+else if (day === wednesday) {
+    console.log('Write code examples');
+}
+else if (day === thursday) {
+    console.log('Write code examples');
+}
+else if (day === friday) {
+    console.log('Record videos');
+}
+else if (day === saturday) {
+    console.log('Enjoy the weekend ;)');
+}
+else if (day === sunday) {
+    console.log('Enjoy the weekend ;)');
+} else {
+    console.log('Not a valid day!');
+}
+

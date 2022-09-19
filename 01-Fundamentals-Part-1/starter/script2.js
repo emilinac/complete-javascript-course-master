@@ -51,11 +51,15 @@ let language = 'English';
 
 // Assignment 6
 
-if (population >= 33) {
-    console.log(`${country} has a population that is above average!`);
-} else {
-    console.log(`${country} has a population below average!`);
-}
+// if (population >= 33) {
+//     console.log(`${country} has a population that is above average!`);
+// } else {
+//     console.log(`${country} has a population below average!`);
+// }
+
+// Assignment 8
+
+
 
 // Coding Challenge #1 and #2
 
