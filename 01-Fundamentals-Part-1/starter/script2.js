@@ -47,11 +47,15 @@ let continent = 'North America';
 let population = '329.5';
 let language = 'English';
 
-console.log(`${country} is in ${continent} and it's ${population} millon poeple speak ${language}.`);
+// console.log(`${country} is in ${continent} and it's ${population} millon people speak ${language}.`);
 
 // Assignment 6
 
-
+if (population >= 33) {
+    console.log(`${country} has a population that is above average!`);
+} else {
+    console.log(`${country} has a population below average!`);
+}
 
 // Coding Challenge #1 and #2
 
